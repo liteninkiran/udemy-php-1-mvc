@@ -1,21 +1,9 @@
-<?php include "inc/header.php"; ?>
+<?php
 
+    include "controller/Controller.php";
 
+    $controller = new Controller();
 
+    $controller->home();
 
-
-
-<?php echo" Model - View - Controller | MVC"; ?>
-
-
-
-
-
-
-
-
-
-
-
-
-<?php include "inc/footer.php"; ?>
+?>
